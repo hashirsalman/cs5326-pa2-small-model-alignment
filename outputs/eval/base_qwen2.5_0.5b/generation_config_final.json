@@ -1,0 +1,16 @@
+{
+  "checkpoint": "Qwen/Qwen2.5-0.5B",
+  "generator": "qwen2.5-0.5b-base",
+  "evaluation_set": "eval_sets/alpaca_eval_300_seed42.json",
+  "evaluation_set_sha256": "0e5763f8986c2149b4f690fe73225dcb71f0b125f36de6355200284276b772e8",
+  "prompt_template": "### Instruction:\n{instruction}\n\n### Response:\n",
+  "do_sample": false,
+  "max_new_tokens": 256,
+  "temperature": null,
+  "top_p": null,
+  "repetition_penalty": 1.0,
+  "no_repeat_ngram_size": 4,
+  "pad_token_id": 151643,
+  "eos_token_id": 151643,
+  "decoding_change_reason": "Initial greedy generation showed severe repetitive loops on some base-model outputs. A pilot on the five most repetitive cases showed that no_repeat_ngram_size=4 removed the loops while preserving coherent outputs."
+}

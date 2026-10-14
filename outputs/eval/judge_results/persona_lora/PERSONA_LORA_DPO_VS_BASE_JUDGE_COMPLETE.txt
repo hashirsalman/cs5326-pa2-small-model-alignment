@@ -1,0 +1,8 @@
+Persona LoRA-DPO vs base judge complete.
+Judge: google/gemini-3.6-flash
+Total pairs: 20
+LoRA wins: 6
+Base wins: 2
+Ties: 12
+Pair SHA256: 578868e16e8a2c2c1288d4533e0623543b1b4ca6f0e5aa018402b523252fb207
+Judgments SHA256: 1bf5bd8de1f8a6122df5e71540abd7cc7e9bb11dcc0ca3f2eddf4dcfb940e5e0

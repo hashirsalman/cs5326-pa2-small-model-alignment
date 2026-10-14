@@ -1,0 +1,11 @@
+{
+  "source_repository": "tatsu-lab/alpaca_eval",
+  "source_file": "alpaca_eval.json",
+  "source_examples": 805,
+  "subset_examples": 300,
+  "seed": 42,
+  "sampling_method": "random.Random(seed).sample(range(source_examples), subset_examples)",
+  "order": "preserved random sample order",
+  "subset_file": "/kaggle/working/small-model-alignment-starter/eval_sets/alpaca_eval_300_seed42.json",
+  "sha256": "0e5763f8986c2149b4f690fe73225dcb71f0b125f36de6355200284276b772e8"
+}

@@ -1,0 +1,16 @@
+{
+  "outputs/persona_lora_dpo_seed42/config.json": "7d1b0814ddc98b0ea8dd8dce8f3da6ad48db5affeb7f6ec1342df8f3161dbc3f",
+  "outputs/persona_lora_dpo_seed42/initial_validation.json": "a4f4e329fb37a8b663e0545a2c9378391422b075542898478092903c91d9125b",
+  "outputs/persona_lora_dpo_seed42/best_validation.json": "6b9e318cf08afa7aa61f105166e663e092697b0f3528009c05122f9df6324f38",
+  "outputs/persona_lora_dpo_seed42/metrics.jsonl": "a5dbb760f856a5acbb41cc34126c3ea745d07aeabfe045e1a5921e36ae484a5a",
+  "outputs/persona_lora_dpo_seed42/summary.json": "70cfcaa8752d716303155b2c8079f06ea2f654f58cec209b55c83e8978b47fa4",
+  "data/persona_lora/fixed_split_seed42/persona_train_200_seed42.json": "ad66099a9ab1f1f2de4cffd65c684dcea09fa4de9d85782a05dca5816b87adbc",
+  "data/persona_lora/fixed_split_seed42/persona_val_20_seed42.json": "36adb9c09ab428c8acda6b91baa8eacc05fcd53e32ec6f2ae8bfe21b3a56000e",
+  "eval_sets/persona_style_eval_20_seed42.json": "4ed24d1f43f042df558b23f3b37c4ad4edbd2d620e5d1c2f45262c22b4880af9",
+  "outputs/eval/persona_lora_seed42/persona_style_eval_20_base.json": "edc9bda2a47d6c4128fcf02df7768c971870882cc9c756c07740cc0f538db14c",
+  "outputs/eval/persona_lora_seed42/persona_style_eval_20_lora_dpo.json": "2fff71d0ab49a7d3745f3932de04551c1ce62fad874eac6e1190ad573cb893bf",
+  "outputs/eval/persona_lora_seed42/generation_summary.json": "77eadc42f217ab8a3fc809a0088d77a4e74446c9c59262446936032330df42f9",
+  "outputs/eval/persona_lora_seed42/persona_lora_dpo_vs_base_pairs_seed42.jsonl": "578868e16e8a2c2c1288d4533e0623543b1b4ca6f0e5aa018402b523252fb207",
+  "outputs/persona_lora_dpo_seed42/best_checkpoint/adapter_model.safetensors": "a72e9af09a5f4cb42a78b59cf845a0ef374f97c9fedadaf9a97747c34c56cb07",
+  "outputs/persona_lora_dpo_seed42/final_checkpoint/adapter_model.safetensors": "a72e9af09a5f4cb42a78b59cf845a0ef374f97c9fedadaf9a97747c34c56cb07"
+}

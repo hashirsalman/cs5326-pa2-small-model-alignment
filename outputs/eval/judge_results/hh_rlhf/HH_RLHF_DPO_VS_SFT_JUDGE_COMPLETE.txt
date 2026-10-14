@@ -1,0 +1,10 @@
+HH-RLHF DPO vs SFT pairwise judging complete.
+Judge: google/gemini-3.6-flash
+Pairs: 300
+DPO wins: 160
+SFT wins: 101
+Ties: 39
+Unknown: 0
+Failures: 0
+Judgments SHA256: 7eb29437dd779f52b2ac0d39e5b9e8e408e0a5ee9013c00bb13bf2bc4b425357
+Summary SHA256: 7d9524c45516c83b763e22c5be6d9b8a0ab4bd0a85533faa003732a99fd0be87

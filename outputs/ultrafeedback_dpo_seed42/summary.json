@@ -1,0 +1,33 @@
+{
+  "completed": true,
+  "optimizer_updates": 469,
+  "expected_optimizer_updates": 469,
+  "skipped_optimizer_steps": 0,
+  "overall_training_dpo_loss": 0.612849420309285,
+  "initial_validation": {
+    "dpo_loss": 0.6931471824645996,
+    "reward_accuracy": 0.0,
+    "reward_margin": 0.0,
+    "examples": 1000
+  },
+  "final_validation": {
+    "dpo_loss": 0.5999177835123082,
+    "reward_accuracy": 0.671,
+    "reward_margin": 0.44714390790089964,
+    "examples": 1000
+  },
+  "best_validation": {
+    "dpo_loss": 0.5999177835123082,
+    "reward_accuracy": 0.671,
+    "reward_margin": 0.44714390790089964,
+    "examples": 1000
+  },
+  "best_reward_accuracy": 0.671,
+  "best_reward_margin": 0.44714390790089964,
+  "best_update": 469,
+  "elapsed_seconds": 4573.626950502396,
+  "elapsed_hours": 1.2704519306951099,
+  "best_checkpoint": "/kaggle/working/small-model-alignment-starter/outputs/ultrafeedback_dpo_seed42/best_checkpoint",
+  "final_checkpoint": "/kaggle/working/small-model-alignment-starter/outputs/ultrafeedback_dpo_seed42/final_checkpoint",
+  "metrics_file": "/kaggle/working/small-model-alignment-starter/outputs/ultrafeedback_dpo_seed42/metrics.jsonl"
+}

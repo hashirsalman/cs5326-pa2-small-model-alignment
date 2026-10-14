@@ -1,0 +1,50 @@
+{
+  "dataset": "HuggingFaceH4/ultrachat_200k",
+  "train": {
+    "source_dataset": "HuggingFaceH4/ultrachat_200k",
+    "source_split": "train_sft",
+    "seed": 42,
+    "context_length": 512,
+    "selection_rule": "first user message + first assistant response; full formatted prompt + response + EOS must fit within context length",
+    "requested_examples": 30000,
+    "selected_examples": 30000,
+    "source_rows_scanned": 51565,
+    "malformed_rows_skipped": 5,
+    "too_long_rows_skipped": 21560
+  },
+  "validation": {
+    "source_dataset": "HuggingFaceH4/ultrachat_200k",
+    "source_split": "test_sft",
+    "seed": 42,
+    "context_length": 512,
+    "selection_rule": "first user message + first assistant response; full formatted prompt + response + EOS must fit within context length",
+    "requested_examples": 1000,
+    "selected_examples": 1000,
+    "source_rows_scanned": 1785,
+    "malformed_rows_skipped": 0,
+    "too_long_rows_skipped": 785
+  },
+  "single_turn_conversion": {
+    "instruction": "messages[0][\"content\"]",
+    "response": "messages[1][\"content\"]",
+    "required_roles": [
+      "user",
+      "assistant"
+    ],
+    "later_turns_discarded": true
+  },
+  "prompt_template": "### Instruction:\n{instruction}\n\n### Response:\n",
+  "context_length": 512,
+  "seed": 42,
+  "loss_reduction": "mean negative log-probability over all unmasked response tokens in the batch",
+  "files": {
+    "train": {
+      "path": "/kaggle/working/small-model-alignment-starter/data/sft_fixed/ultrachat_train_30000_seed42.jsonl",
+      "sha256": "c4b481a3c227a7efc19350b55fab6a905e98db7dd05a21a699e3bd8de78981f0"
+    },
+    "validation": {
+      "path": "/kaggle/working/small-model-alignment-starter/data/sft_fixed/ultrachat_val_1000_seed42.jsonl",
+      "sha256": "e941877e5f828da599ee284a5015fdd1a287114c51a03749132669c7cfb9bf47"
+    }
+  }
+}

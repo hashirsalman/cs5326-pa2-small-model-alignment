@@ -1,0 +1,6 @@
+UltraFeedback DPO completed successfully.
+Best update: 469
+Best reward accuracy: 0.671
+Best reward margin: 0.44714390790089964
+Best SHA256: 2cc15024f2262291ca1f4dd96c3e070824076c52819a07b163ae014e10d7d11c
+Final SHA256: 2cc15024f2262291ca1f4dd96c3e070824076c52819a07b163ae014e10d7d11c

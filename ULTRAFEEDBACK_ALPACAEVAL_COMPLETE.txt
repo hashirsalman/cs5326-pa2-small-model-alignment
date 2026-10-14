@@ -1,0 +1,5 @@
+UltraFeedback-DPO AlpacaEval-300 generation complete.
+Output SHA256: e89ba1671b8c683a1b78c53d1bc980b4dfd26608e54609f1420bd8880cdf7e95
+Examples: 300
+Capped: 155
+Average generated tokens: 193.39666666666668

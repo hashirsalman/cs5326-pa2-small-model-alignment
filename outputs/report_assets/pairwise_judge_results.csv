@@ -1,0 +1,4 @@
+Comparison,Aligned wins,Baseline wins,Ties,Total,Aligned win rate (all),Aligned win rate (no ties)
+HH-RLHF DPO vs SFT,160,101,39,300,0.5333333333333333,0.6130268199233716
+UltraFeedback DPO vs SFT,105,144,51,300,0.35,0.42168674698795183
+Persona LoRA-DPO vs Base,6,2,12,20,0.3,0.75

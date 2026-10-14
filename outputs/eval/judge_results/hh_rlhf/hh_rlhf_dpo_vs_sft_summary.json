@@ -1,0 +1,17 @@
+{
+  "judge_model": "google/gemini-3.6-flash",
+  "total_pairs": 300,
+  "successfully_judged": 300,
+  "dpo_wins": 160,
+  "dpo_losses_sft_wins": 101,
+  "ties": 39,
+  "unknown": 0,
+  "failures": 0,
+  "dpo_win_rate_all_pairs": 0.5333333333333333,
+  "dpo_loss_rate_all_pairs": 0.33666666666666667,
+  "tie_rate_all_pairs": 0.13,
+  "unknown_rate_all_pairs": 0.0,
+  "failure_rate_all_pairs": 0.0,
+  "remaining_pair_ids": [],
+  "dpo_win_rate_excluding_ties_and_failures": 0.6130268199233716
+}

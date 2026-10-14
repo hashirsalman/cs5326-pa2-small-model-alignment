@@ -1,0 +1,5 @@
+Run,Base model,Train examples,Val examples,Epochs,Context,Effective batch,Learning rate,Scheduler,Weight decay,Gradient clip,DPO beta,LoRA,Seed
+SFT,Qwen/Qwen2.5-0.5B,30000,1000,1,512,32,2e-05,cosine,0.1,1.0,,,42
+HH-RLHF DPO,SFT Qwen2.5-0.5B,15000,1000,1,512,32,1e-06,fixed,0.0,1.0,0.1,,42
+UltraFeedback DPO,SFT Qwen2.5-0.5B,15000,1000,1,512,32,1e-06,fixed,0.0,1.0,0.1,,42
+Persona LoRA-DPO,HuggingFaceTB/SmolLM2-360M-Instruct,200,20,3,512,8,1e-05,linear,0.0,1.0,0.1,"r=16, alpha=32, dropout=0.05",42

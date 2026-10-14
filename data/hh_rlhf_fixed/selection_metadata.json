@@ -1,0 +1,45 @@
+{
+  "source_dataset": "Anthropic/hh-rlhf",
+  "train_source_split": "train",
+  "validation_source_split": "test",
+  "seed": 42,
+  "train_examples": 15000,
+  "validation_examples": 1000,
+  "prompt_format": "### Instruction:\n{instruction}\n\n### Response:\n",
+  "single_turn_rule": "Accept only transcripts containing exactly one Human turn and one Assistant turn on both chosen and rejected sides, with identical Human prompts.",
+  "multi_turn_policy": "filtered out",
+  "max_prompt_tokens": 256,
+  "context_length": 512,
+  "length_filter": "Formatted prompt must be <=256 tokens and both prompt+chosen+EOS and prompt+rejected+EOS must fit completely within 512 tokens.",
+  "candidate_counts": {
+    "train": 48880,
+    "validation": 2579
+  },
+  "source_analysis": {
+    "train": {
+      "source_rows": 160800,
+      "single_turn_valid": 49241,
+      "multi_or_invalid": 111559,
+      "prompt_over_256": 203,
+      "chosen_full_fit": 48993,
+      "rejected_full_fit": 49008,
+      "both_full_fit": 48917,
+      "usable_full_fit_and_prompt_limit": 48880
+    },
+    "validation": {
+      "source_rows": 8552,
+      "single_turn_valid": 2597,
+      "multi_or_invalid": 5955,
+      "prompt_over_256": 12,
+      "chosen_full_fit": 2584,
+      "rejected_full_fit": 2581,
+      "both_full_fit": 2579,
+      "usable_full_fit_and_prompt_limit": 2579
+    }
+  },
+  "sampling_method": "random.Random(42).sample(candidate_indices, n), with candidate order inherited from the official source split.",
+  "train_file": "/kaggle/working/small-model-alignment-starter/data/hh_rlhf_fixed/hh_train_15000_seed42.jsonl",
+  "validation_file": "/kaggle/working/small-model-alignment-starter/data/hh_rlhf_fixed/hh_val_1000_seed42.jsonl",
+  "train_sha256": "d28ef3ded817949b7d8e08753cb9a0ddbcc7afa5ecb6403ac394325a98e30946",
+  "validation_sha256": "f8cf92b00c1dba254045fc6086070632d1562d9a0f76ab0d664e2e4225cb9e47"
+}

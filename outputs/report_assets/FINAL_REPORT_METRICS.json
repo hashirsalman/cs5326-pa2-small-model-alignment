@@ -1,0 +1,214 @@
+{
+  "sft": {
+    "completed": true,
+    "optimizer_updates": 938,
+    "expected_optimizer_updates": 938,
+    "skipped_optimizer_steps": 0,
+    "overall_training_loss": 1.3364279199522695,
+    "initial_validation": {
+      "validation_loss": 1.3498976668730491,
+      "perplexity": 3.857030808477362,
+      "examples": 1000,
+      "response_tokens": 213375,
+      "batches": 500
+    },
+    "final_validation": {
+      "validation_loss": 1.3143231261241624,
+      "perplexity": 3.7222306516854995,
+      "examples": 1000,
+      "response_tokens": 213375,
+      "batches": 500
+    },
+    "best_validation_loss": 1.3143231261241624,
+    "best_update": 938,
+    "elapsed_seconds": 4242.975714206696,
+    "elapsed_hours": 1.1786043650574154,
+    "best_checkpoint": "/kaggle/working/small-model-alignment-starter/outputs/sft_qwen2.5_0.5b_ultrachat_seed42/best_checkpoint",
+    "final_checkpoint": "/kaggle/working/small-model-alignment-starter/outputs/sft_qwen2.5_0.5b_ultrachat_seed42/final_checkpoint",
+    "metrics_file": "/kaggle/working/small-model-alignment-starter/outputs/sft_qwen2.5_0.5b_ultrachat_seed42/metrics.jsonl"
+  },
+  "hh_dpo": {
+    "completed": true,
+    "optimizer_updates": 469,
+    "expected_optimizer_updates": 469,
+    "skipped_optimizer_steps": 0,
+    "overall_training_dpo_loss": 0.6509433042819301,
+    "initial_validation": {
+      "dpo_loss": 0.6931471824645996,
+      "reward_accuracy": 0.0,
+      "reward_margin": 0.0,
+      "examples": 1000
+    },
+    "final_validation": {
+      "dpo_loss": 0.6427764557227492,
+      "reward_accuracy": 0.633,
+      "reward_margin": 0.23464530624076724,
+      "examples": 1000
+    },
+    "best_validation": {
+      "dpo_loss": 0.6427764557227492,
+      "reward_accuracy": 0.633,
+      "reward_margin": 0.23464530624076724,
+      "examples": 1000
+    },
+    "best_reward_accuracy": 0.633,
+    "best_reward_margin": 0.23464530624076724,
+    "best_update": 469,
+    "elapsed_seconds": 3497.043214082718,
+    "elapsed_hours": 0.9714008928007549,
+    "best_checkpoint": "/kaggle/working/small-model-alignment-starter/outputs/hh_rlhf_dpo_seed42/best_checkpoint",
+    "final_checkpoint": "/kaggle/working/small-model-alignment-starter/outputs/hh_rlhf_dpo_seed42/final_checkpoint",
+    "metrics_file": "/kaggle/working/small-model-alignment-starter/outputs/hh_rlhf_dpo_seed42/metrics.jsonl"
+  },
+  "ultrafeedback_dpo": {
+    "completed": true,
+    "optimizer_updates": 469,
+    "expected_optimizer_updates": 469,
+    "skipped_optimizer_steps": 0,
+    "overall_training_dpo_loss": 0.612849420309285,
+    "initial_validation": {
+      "dpo_loss": 0.6931471824645996,
+      "reward_accuracy": 0.0,
+      "reward_margin": 0.0,
+      "examples": 1000
+    },
+    "final_validation": {
+      "dpo_loss": 0.5999177835123082,
+      "reward_accuracy": 0.671,
+      "reward_margin": 0.44714390790089964,
+      "examples": 1000
+    },
+    "best_validation": {
+      "dpo_loss": 0.5999177835123082,
+      "reward_accuracy": 0.671,
+      "reward_margin": 0.44714390790089964,
+      "examples": 1000
+    },
+    "best_reward_accuracy": 0.671,
+    "best_reward_margin": 0.44714390790089964,
+    "best_update": 469,
+    "elapsed_seconds": 4573.626950502396,
+    "elapsed_hours": 1.2704519306951099,
+    "best_checkpoint": "/kaggle/working/small-model-alignment-starter/outputs/ultrafeedback_dpo_seed42/best_checkpoint",
+    "final_checkpoint": "/kaggle/working/small-model-alignment-starter/outputs/ultrafeedback_dpo_seed42/final_checkpoint",
+    "metrics_file": "/kaggle/working/small-model-alignment-starter/outputs/ultrafeedback_dpo_seed42/metrics.jsonl"
+  },
+  "persona_lora_dpo": {
+    "completed": true,
+    "model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "train_examples": 200,
+    "validation_examples": 20,
+    "epochs": 3,
+    "expected_optimizer_steps": 75,
+    "global_step": 75,
+    "best_raw_checkpoint": "/kaggle/working/small-model-alignment-starter/outputs/persona_lora_dpo_seed42/trainer_checkpoints/checkpoint-75",
+    "last_raw_checkpoint": "/kaggle/working/small-model-alignment-starter/outputs/persona_lora_dpo_seed42/trainer_checkpoints/checkpoint-75",
+    "best_metric_eval_loss": 0.5643799901008606,
+    "train_runtime_seconds": 115.93193078041077,
+    "train_runtime_hours": 0.03220331410566966,
+    "gpu_peak_memory_gb": 1.583446979522705,
+    "trainable_parameters": 8683520,
+    "total_parameters": 370504640,
+    "trainable_fraction": 0.023437007428570935,
+    "train_metrics": {
+      "train_runtime": 115.4967,
+      "train_samples_per_second": 5.195,
+      "train_steps_per_second": 0.649,
+      "total_flos": 239548132922880.0,
+      "train_loss": 0.6156249396006266,
+      "epoch": 3.0
+    },
+    "initial_validation": {
+      "eval_loss": 0.6931473016738892,
+      "eval_entropy": 2.265672707557678,
+      "eval_num_tokens": 0.0,
+      "eval_logits/chosen": 0.6667079120811665,
+      "eval_logits/rejected": 0.3124293700747634,
+      "eval_mean_token_accuracy": 0.32516454458236693,
+      "eval_rewards/chosen": 0.0,
+      "eval_rewards/rejected": 0.0,
+      "eval_rewards/accuracies": 0.0,
+      "eval_rewards/margins": 0.0,
+      "eval_logps/chosen": -171.6170654296875,
+      "eval_logps/rejected": -118.55524215698242
+    },
+    "best_validation": {
+      "eval_loss": 0.5643799901008606,
+      "eval_entropy": 2.3091811418533323,
+      "eval_num_tokens": 116049.0,
+      "eval_logits/chosen": 0.6741143570506475,
+      "eval_logits/rejected": 0.37772054019198015,
+      "eval_mean_token_accuracy": 0.33186420500278474,
+      "eval_rewards/chosen": 0.2256378173828125,
+      "eval_rewards/rejected": -0.05212173592299223,
+      "eval_rewards/accuracies": 1.0,
+      "eval_rewards/margins": 0.277759550511837,
+      "eval_logps/chosen": -169.36069030761718,
+      "eval_logps/rejected": -119.07645797729492
+    },
+    "best_adapter_sha256": "a72e9af09a5f4cb42a78b59cf845a0ef374f97c9fedadaf9a97747c34c56cb07",
+    "final_adapter_sha256": "a72e9af09a5f4cb42a78b59cf845a0ef374f97c9fedadaf9a97747c34c56cb07"
+  },
+  "judge_results": {
+    "judge_model": "google/gemini-3.6-flash",
+    "hh_rlhf": {
+      "total_pairs": 300,
+      "successfully_judged": 300,
+      "failed_pairs": 0,
+      "dpo_wins": 160,
+      "sft_wins": 101,
+      "ties": 39,
+      "dpo_win_fraction_all": 0.5333333333333333,
+      "dpo_win_fraction_excluding_ties": 0.6130268199233716,
+      "judgments_sha256": "7eb29437dd779f52b2ac0d39e5b9e8e408e0a5ee9013c00bb13bf2bc4b425357"
+    },
+    "ultrafeedback": {
+      "total_pairs": 300,
+      "successfully_judged": 300,
+      "failed_pairs": 0,
+      "dpo_wins": 105,
+      "sft_wins": 144,
+      "ties": 51,
+      "dpo_win_fraction_all": 0.35,
+      "dpo_win_fraction_excluding_ties": 0.42168674698795183,
+      "judgments_sha256": "181cfd24d803b9df4da193196ea7b222fc338928e92a64bd1483430c89f210e9"
+    },
+    "persona_lora": {
+      "total_pairs": 20,
+      "successfully_judged": 20,
+      "failed_pairs": 0,
+      "lora_dpo_wins": 6,
+      "base_instruct_wins": 2,
+      "ties": 12,
+      "lora_dpo_win_fraction_all": 0.3,
+      "lora_dpo_win_fraction_excluding_ties": 0.75,
+      "category_breakdown": {
+        "coding": {
+          "judged": 5,
+          "lora_wins": 0,
+          "base_wins": 0,
+          "ties": 5
+        },
+        "cooking": {
+          "judged": 5,
+          "lora_wins": 1,
+          "base_wins": 1,
+          "ties": 3
+        },
+        "general_help": {
+          "judged": 5,
+          "lora_wins": 2,
+          "base_wins": 0,
+          "ties": 3
+        },
+        "safety_sensitive": {
+          "judged": 5,
+          "lora_wins": 3,
+          "base_wins": 1,
+          "ties": 1
+        }
+      },
+      "judgments_sha256": "1bf5bd8de1f8a6122df5e71540abd7cc7e9bb11dcc0ca3f2eddf4dcfb940e5e0"
+    }
+  }
+}

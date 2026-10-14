@@ -1,0 +1,30 @@
+{
+  "evaluation_prompts": 20,
+  "categories": {
+    "cooking": 5,
+    "coding": 5,
+    "general_help": 5,
+    "safety_sensitive": 5
+  },
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 160,
+    "repetition_penalty": 1.05,
+    "no_repeat_ngram_size": 4
+  },
+  "base": {
+    "examples": 20,
+    "average_generated_tokens": 146.7,
+    "hit_max_new_tokens": 17,
+    "hit_max_fraction": 0.85
+  },
+  "lora_dpo": {
+    "examples": 20,
+    "average_generated_tokens": 148.7,
+    "hit_max_new_tokens": 17,
+    "hit_max_fraction": 0.85
+  },
+  "lora_as_response_A": 11,
+  "lora_as_response_B": 9,
+  "pair_file_sha256": "578868e16e8a2c2c1288d4533e0623543b1b4ca6f0e5aa018402b523252fb207"
+}

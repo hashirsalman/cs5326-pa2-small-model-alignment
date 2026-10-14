@@ -1,0 +1,11 @@
+{
+  "judge_model": "google/gemini-3.6-flash",
+  "pair_file": "/kaggle/input/notebooks/muhammadhashirsalman/pa2-new/small-model-alignment-starter/outputs/eval/persona_lora_seed42/persona_lora_dpo_vs_base_pairs_seed42.jsonl",
+  "pair_file_sha256": "578868e16e8a2c2c1288d4533e0623543b1b4ca6f0e5aa018402b523252fb207",
+  "total_pairs": 20,
+  "batch_size": 5,
+  "sleep_seconds": 5,
+  "max_retries": 3,
+  "temperature": 0,
+  "seed": 42
+}

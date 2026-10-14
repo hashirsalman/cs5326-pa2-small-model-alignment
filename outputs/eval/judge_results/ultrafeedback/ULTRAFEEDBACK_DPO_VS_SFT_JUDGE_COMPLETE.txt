@@ -1,0 +1,10 @@
+UltraFeedback DPO vs SFT pairwise judging complete.
+Judge: google/gemini-3.6-flash
+Pairs: 300
+DPO wins: 105
+SFT wins: 144
+Ties: 51
+Unknown: 0
+Failures: 0
+Judgments SHA256: 181cfd24d803b9df4da193196ea7b222fc338928e92a64bd1483430c89f210e9
+Summary SHA256: 58d9f7a54902aa039eb2948ec451495bef18eb744e03ed071e1ec2f7cfccf49e

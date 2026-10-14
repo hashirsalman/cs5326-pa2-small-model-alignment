@@ -1,0 +1,60 @@
+{
+  "dataset": "HuggingFaceH4/ultrafeedback_binarized",
+  "train_source_split": "train_prefs",
+  "validation_source_split": "test_prefs",
+  "seed": 42,
+  "train_target_size": 15000,
+  "validation_target_size": 1000,
+  "context_length": 512,
+  "max_prompt_length": 256,
+  "filtering": {
+    "strict_single_turn": true,
+    "prompt_must_match_both_sides": true,
+    "chosen_and_rejected_must_differ": true,
+    "full_chosen_sequence_must_fit": true,
+    "full_rejected_sequence_must_fit": true,
+    "no_response_truncation": true,
+    "score_ties_retained": true,
+    "preference_order_source": "dataset chosen/rejected fields"
+  },
+  "usable_candidates": {
+    "train": 33377,
+    "validation": 1116
+  },
+  "overlap_checks": {
+    "prompt_id_overlap": 0,
+    "exact_instruction_overlap": 0
+  },
+  "train_first_10_source_indices": [
+    13258,
+    2968,
+    32923,
+    29312,
+    26579,
+    16580,
+    12237,
+    10314,
+    50540,
+    3800
+  ],
+  "validation_first_10_source_indices": [
+    437,
+    106,
+    1054,
+    921,
+    837,
+    533,
+    397,
+    344,
+    1584,
+    126
+  ],
+  "files": {
+    "ultrafeedback_train_15000_seed42.jsonl": {
+      "sha256": "eb726a47be09821959086c24aa0f6588ab1a578e4c4a22fab367358fd67e8397"
+    },
+    "ultrafeedback_val_1000_seed42.jsonl": {
+      "sha256": "a6e4c6db82092363252e32c5adec8c897015fd3a5fbe9cd549cfa832820aafea"
+    }
+  }
+}

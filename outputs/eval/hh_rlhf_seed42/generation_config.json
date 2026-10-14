@@ -1,0 +1,14 @@
+{
+  "evaluation_file": "/kaggle/working/small-model-alignment-starter/eval_sets/hh_rlhf_eval_300_seed42.json",
+  "evaluation_examples": 300,
+  "sft_checkpoint": "/kaggle/working/small-model-alignment-starter/outputs/sft_qwen2.5_0.5b_ultrachat_seed42/best_checkpoint",
+  "hh_dpo_checkpoint": "/kaggle/working/small-model-alignment-starter/outputs/hh_rlhf_dpo_seed42/best_checkpoint",
+  "hh_dpo_checkpoint_sha256": "65d819ab026d41e980163a0f1271906e503c4c7991a0b6c9a8a0f1ce36b8d1a0",
+  "prompt_template": "### Instruction:\n{instruction}\n\n### Response:\n",
+  "do_sample": false,
+  "max_new_tokens": 256,
+  "temperature": null,
+  "top_p": null,
+  "repetition_penalty": 1.0,
+  "no_repeat_ngram_size": 4
+}

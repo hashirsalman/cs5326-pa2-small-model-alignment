@@ -1,0 +1,28 @@
+{
+  "completed": true,
+  "optimizer_updates": 938,
+  "expected_optimizer_updates": 938,
+  "skipped_optimizer_steps": 0,
+  "overall_training_loss": 1.3364279199522695,
+  "initial_validation": {
+    "validation_loss": 1.3498976668730491,
+    "perplexity": 3.857030808477362,
+    "examples": 1000,
+    "response_tokens": 213375,
+    "batches": 500
+  },
+  "final_validation": {
+    "validation_loss": 1.3143231261241624,
+    "perplexity": 3.7222306516854995,
+    "examples": 1000,
+    "response_tokens": 213375,
+    "batches": 500
+  },
+  "best_validation_loss": 1.3143231261241624,
+  "best_update": 938,
+  "elapsed_seconds": 4242.975714206696,
+  "elapsed_hours": 1.1786043650574154,
+  "best_checkpoint": "/kaggle/working/small-model-alignment-starter/outputs/sft_qwen2.5_0.5b_ultrachat_seed42/best_checkpoint",
+  "final_checkpoint": "/kaggle/working/small-model-alignment-starter/outputs/sft_qwen2.5_0.5b_ultrachat_seed42/final_checkpoint",
+  "metrics_file": "/kaggle/working/small-model-alignment-starter/outputs/sft_qwen2.5_0.5b_ultrachat_seed42/metrics.jsonl"
+}

@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/kaggle/working/small-model-alignment-starter/outputs/sft_qwen2.5_0.5b_ultrachat_seed42/best_checkpoint",
+  "checkpoint_update": 938,
+  "checkpoint_validation_loss": 1.3143231261241624,
+  "checkpoint_model_sha256": "cf40f50587c5287c6dea232603e3976fe6bf4480fe1b6145f0273da90e8f70ac",
+  "generator": "qwen2.5-0.5b-sft-ultrachat",
+  "evaluation_set": "eval_sets/alpaca_eval_300_seed42.json",
+  "evaluation_set_sha256": "0e5763f8986c2149b4f690fe73225dcb71f0b125f36de6355200284276b772e8",
+  "prompt_template": "### Instruction:\n{instruction}\n\n### Response:\n",
+  "do_sample": false,
+  "max_new_tokens": 256,
+  "temperature": null,
+  "top_p": null,
+  "repetition_penalty": 1.0,
+  "no_repeat_ngram_size": 4,
+  "pad_token_id": 151643,
+  "eos_token_id": 151643
+}

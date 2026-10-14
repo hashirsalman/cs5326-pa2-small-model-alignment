@@ -1,0 +1,10 @@
+Persona LoRA-DPO track complete.
+Model: HuggingFaceTB/SmolLM2-360M-Instruct
+Train rows: 200
+Validation rows: 20
+Epochs: 3
+Optimizer steps: 75
+Best adapter SHA256: a72e9af09a5f4cb42a78b59cf845a0ef374f97c9fedadaf9a97747c34c56cb07
+Final adapter SHA256: a72e9af09a5f4cb42a78b59cf845a0ef374f97c9fedadaf9a97747c34c56cb07
+Persona pair SHA256: 578868e16e8a2c2c1288d4533e0623543b1b4ca6f0e5aa018402b523252fb207
+Manifest SHA256: 65386d4093f32d0e6029a770c47ad6ca2674fe468228e28afa0d5ba464ed52e9

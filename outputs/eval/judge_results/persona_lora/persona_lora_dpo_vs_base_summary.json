@@ -1,0 +1,43 @@
+{
+  "judge_model": "google/gemini-3.6-flash",
+  "pair_file_sha256": "578868e16e8a2c2c1288d4533e0623543b1b4ca6f0e5aa018402b523252fb207",
+  "total_pairs": 20,
+  "successfully_judged": 20,
+  "failed_pairs": 0,
+  "failed_pair_ids": [],
+  "persona_lora_dpo_wins": 6,
+  "base_instruct_wins": 2,
+  "ties": 12,
+  "unknown": 0,
+  "persona_lora_dpo_win_fraction_all": 0.3,
+  "base_instruct_win_fraction_all": 0.1,
+  "tie_fraction_all": 0.6,
+  "persona_lora_dpo_win_fraction_excluding_ties": 0.75,
+  "category_breakdown": {
+    "coding": {
+      "judged": 5,
+      "lora_wins": 0,
+      "base_wins": 0,
+      "ties": 5
+    },
+    "cooking": {
+      "judged": 5,
+      "lora_wins": 1,
+      "base_wins": 1,
+      "ties": 3
+    },
+    "general_help": {
+      "judged": 5,
+      "lora_wins": 2,
+      "base_wins": 0,
+      "ties": 3
+    },
+    "safety_sensitive": {
+      "judged": 5,
+      "lora_wins": 3,
+      "base_wins": 1,
+      "ties": 1
+    }
+  },
+  "judgments_sha256": "1bf5bd8de1f8a6122df5e71540abd7cc7e9bb11dcc0ca3f2eddf4dcfb940e5e0"
+}

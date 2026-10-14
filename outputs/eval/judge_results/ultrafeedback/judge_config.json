@@ -1,0 +1,22 @@
+{
+  "judge_model": "google/gemini-3.6-flash",
+  "pair_file": "/kaggle/input/notebooks/muhammadhashirsalman/notebook06adee0aec/small-model-alignment-starter/outputs/eval/pairwise/ultrafeedback_dpo_vs_sft_alpaca_eval_300_seed42.jsonl",
+  "pair_file_sha256": "3312bc56fa19f06d64853ffa88519009771c1855d92a46f0a560775e7f66ffa9",
+  "pairs": 300,
+  "batch_size": 5,
+  "sleep_seconds": 5,
+  "max_retries": 3,
+  "temperature": 0,
+  "seed": 42,
+  "criteria": [
+    "helpfulness",
+    "correctness",
+    "instruction-following",
+    "relevance",
+    "concision when appropriate",
+    "clear formatting",
+    "absence of hallucinations",
+    "absence of unsafe or harmful content"
+  ],
+  "judge_prompt_version": "pa2_step86_v1"
+}

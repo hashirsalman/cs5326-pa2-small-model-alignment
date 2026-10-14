@@ -1,0 +1,18 @@
+PA2 experimental pipeline complete.
+
+SFT: complete
+HH-RLHF scratch DPO: complete
+UltraFeedback scratch DPO: complete
+Persona LoRA-DPO: complete
+
+Gemini judge results:
+HH-RLHF: 300/300 complete
+UltraFeedback: 300/300 complete
+Persona: 20/20 complete
+
+HH: 160 DPO / 101 SFT / 39 ties
+UltraFeedback: 105 DPO / 144 SFT / 51 ties
+Persona: 6 LoRA-DPO / 2 Base / 12 ties
+
+Master judge summary SHA256: 5bd57b33082bb76788f193f32fa3d5d9ee41667fc0eb65e8058cd266d949732e
+Manifest SHA256: 402f0cd0452469f016ef49f2891f5a83e0a13b6b5688364a6e264121a8b453df
