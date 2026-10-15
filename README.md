@@ -97,6 +97,14 @@ The `notebooks/` directory preserves the Kaggle workflow used to produce the sub
 
 The notebooks use saved Kaggle outputs as inputs between stages so completed training/generation artifacts can be reused without rerunning earlier stages.
 
+
+### Kaggle notebook path note
+
+The saved notebooks preserve the original Kaggle working path
+`/kaggle/working/small-model-alignment-starter`. For direct reruns,
+clone this repository to that directory or update `REPO_ROOT` in the
+notebooks accordingly.
+
 ## Main Training Configuration
 
 ### SFT
