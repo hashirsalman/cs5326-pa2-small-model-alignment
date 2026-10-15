@@ -10,3 +10,4 @@ matplotlib
 peft>=0.11.0
 bitsandbytes>=0.43.0
 pytest>=8
+trl==1.15.0
